@@ -148,7 +148,8 @@ background: #fff;
     
  
 }
-.button {
+.button,
+.send-button {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -445,6 +446,10 @@ footer {
 
 }
 
+
+.subscribe-form {
+        margin-left: 80px;
+}
 .subscribe-paragraph {
         margin-bottom: 16px;
         font-weight: 500; 
@@ -667,7 +672,7 @@ background-color: transparent;
 padding: 8px 16px;
 outline: transparent;
 resize: none;
-
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .text-area:focus {
         border-color: #4D5AE5;
@@ -703,29 +708,14 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 
 }
 
-.input :checked .privacy-policy {
+.input:checked .privacy-policy {
 fill:#F4F4FD;
+background-color: #404bbf; 
+border: none;
+
 }
 
 .policy-link {
         color: #4d5ae5;
 }
 
-.send-button {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #fff;
-        background-color: #4d5ae5;
-        cursor: pointer;
-        display: block;
-        min-width: 169px;
-        height: 56px;
-        border: none;
-        border-radius: 4px; 
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 48px;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
