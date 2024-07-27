@@ -597,6 +597,9 @@ margin-bottom: 16px;
         margin-bottom: 8px; 
 }
 
+.form-field {
+        margin-bottom: 8px;
+}
 .form-label {
         font-family: "Roboto", sans-serif;
 font-weight: 400;
