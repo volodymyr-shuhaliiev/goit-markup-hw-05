@@ -583,8 +583,8 @@ transform: translate (-50%, -100%)
 /* .icon-fill-cl:hover,
 .icon-fill-cl:focus {
         
-        fill: #ffffff; */
-}
+        fill: #ffffff;
+} */
 
 .icon-fill-cl:focus .modal-button-close {
         fill: #ffffff;
@@ -697,14 +697,13 @@ color: #8e8f99;
 }
 
 .privacy-policy {
-        margin-right: 8px;
+        /* margin-right: 8px; */
     display: inline-flex;
         align-items: center;
         justify-content: center; 
         fill: transparent; 
         line-height: 1.33;
-        text-decoration: underline;
-
+       
 color: #4d5ae5;
 width: 16px;
 height: 16px;
