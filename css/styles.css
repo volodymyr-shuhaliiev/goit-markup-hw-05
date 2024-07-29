@@ -579,16 +579,22 @@ transform: translate (-50%, -100%)
 .icon-fill-cl {
         color: black;
 }
-
+.modal-button-close:focus .icon-close-x,
+.modal-button-close:hover .icon-close-x
+ {
+        fill: #ffffff;
+}
 /* .icon-fill-cl:hover,
 .icon-fill-cl:focus {
         
         fill: #ffffff;
 } */
 
-.icon-fill-cl:focus .modal-button-close {
+/* .icon-fill-cl:focus .modal-button-close {
         fill: #ffffff;
-}
+} */
+
+
 
 .modal-parafraph {
 
@@ -650,7 +656,7 @@ margin-bottom: 4px;
 }
 
 .form-input:hover .form-icon,
-.form-input:focus-within .form-icon {
+.form-input:focus-within + .form-icon {
         fill: #4D5AE5;
 }
 
@@ -697,7 +703,7 @@ color: #8e8f99;
 }
 
 .privacy-policy {
-        /* margin-right: 8px; */
+        margin-right: 8px;
     display: inline-flex;
         align-items: center;
         justify-content: center; 
